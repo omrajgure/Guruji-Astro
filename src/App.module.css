@@ -1,0 +1,50 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.pad {
+  padding: 5rem;
+}
+.Innerwrapper {
+  max-height: max-content;
+  width: 40rem;
+  border: 1px solid #ebebeb;
+  box-shadow: 0px 5px 10px #0000000d;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  padding-bottom: 1rem;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Innerbutton {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .Innerwrapper {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  .Innerwrapper {
+    width: 20rem;
+  }
+  .pad {
+    padding: 5rem 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  .Innerwrapper {
+    width: 15rem;
+  }
+  .pad {
+    padding: 5rem 0;
+  }
+}
